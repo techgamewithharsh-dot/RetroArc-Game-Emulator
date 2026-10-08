@@ -1,64 +1,38 @@
-<div align="center">
- <img src="RetroArc-app-icon-1024.png" width="250" alt="RetroArc UI Screenshot" style="border-radius: 20%; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"> 
+# RetroArc — Retro Game Emulator for Apple Platforms
 
- # 🕹️ RetroArc
-**The Ultimate Classic Game Engine for Apple Platforms**
+<img src="RetroArc-app-icon-1024.png" width="160" alt="RetroArc app icon">
 
-[![iOS](https://img.shields.io/badge/iOS-15.0+-black.svg?style=for-the-badge&logo=apple)](https://apps.apple.com/)
-[![macOS](https://img.shields.io/badge/macOS-12.0+-black.svg?style=for-the-badge&logo=apple)](https://apps.apple.com/)
-[![tvOS](https://img.shields.io/badge/tvOS-15.0+-black.svg?style=for-the-badge&logo=apple)](https://apps.apple.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](#license)
+RetroArc is a retro gaming project for the Apple ecosystem, with a product vision spanning iPhone, iPad, Mac, and Apple TV. This public repository currently provides the project overview and app icon assets.
 
-[Download on the App Store](#) • [Features](#features) • [Installation](#building-from-source)
+## Project availability
 
-</div>
+**This checkout does not contain the emulator source code or an Xcode project.** There is no verified App Store download link in this repository. You cannot build the application from the files currently published here.
 
----
+Use the [Releases page](https://github.com/techgamewithharsh-dot/RetroArc-Game-Emulator/releases) to check for published builds and [Issues](https://github.com/techgamewithharsh-dot/RetroArc-Game-Emulator/issues) for project questions or feature requests.
 
-## ✨ About RetroArc
+## Product direction
 
-**RetroArc** is a meticulously crafted, premium retro game engine and emulator built specifically for the Apple ecosystem. Whether you are on an iPhone, an iPad, a Mac, or relaxing in the living room with your Apple TV, RetroArc provides a seamless, frictionless way to experience the golden age of gaming.
+The project overview describes these intended capabilities; availability and compatibility should be confirmed against a published build:
 
-We believe that classic games deserve a modern home. That's why RetroArc abandons clunky, outdated emulator interfaces in favor of a gorgeous, glassmorphic UI, buttery-smooth metal-accelerated rendering, and true universal controller support.
+- A visual library for organizing game backups.
+- Bluetooth controller support, including DualSense, Xbox, and MFi controllers.
+- Save states for resuming play.
+- An interface designed for Apple devices.
 
-<br/>
+Supported consoles, emulation cores, minimum operating-system versions, and performance measurements are not documented in the current source checkout.
 
-<img src="RetroArc-app-icon-1024.png" width="250" alt="RetroArc UI Screenshot" style="border-radius: 20%; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+## Repository contents
 
-<br/>
+| File | Purpose |
+| --- | --- |
+| [RetroArc-app-icon-1024.png](RetroArc-app-icon-1024.png) | PNG app icon |
+| [AppIcon.icns](AppIcon.icns) | macOS icon asset |
+| [README.md](README.md) | Project overview and availability |
 
-## 🚀 Key Features
+## Questions and feedback
 
-- **📺 Universal Apple Support:** Native applications compiled for iOS, iPadOS, macOS, and tvOS. One seamless codebase, tailored for every screen.
-- **🎮 Ultimate Controller Integration:** Plug and play with your favorite Bluetooth controllers. Full native mapping for DualSense, Xbox Wireless, MFi, and more. 
-- **⚡️ High-Performance Emulation:** Powered by modern emulation cores running under the hood, ensuring perfect frame rates, low latency, and accurate audio.
-- **📁 Smart Library Manager:** Simply drop your legally owned ROMs into the app. RetroArc automatically organizes your collection into a beautiful, visual arcade grid.
-- **💾 Save States Anywhere:** Never lose progress. Instantly save and load your exact game state at any moment.
-- **🎨 Premium UI/UX:** A stunning dark-mode interface featuring dynamic blurs, haptic feedback, and fluid micro-animations.
+For compatibility questions, include the Apple device, operating-system version, and the console or controller you want to use. If reporting an issue with a build, include its version and reproduction steps.
 
-## 🛠️ Building from Source
+This repository does not distribute game ROMs or BIOS files. No license file is currently included; this README does not grant a software or asset license.
 
-Want to contribute or build RetroArc yourself? The project is fully compatible with the latest versions of Xcode.
-
-### Prerequisites
-- macOS 13.0 or later
-- Xcode 15.0 or later
-- An active Apple Developer Account (for device provisioning)
-
-
-## ⚖️ Legal Disclaimer
-
-RetroArc is a game engine and emulator. **It does not include, endorse, or promote the downloading of copyrighted software.** Users are strictly required to provide their own legally obtained game backups (ROMs) to use this software. The developers of RetroArc hold no responsibility for how users choose to source their game files.
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Whether it's adding new emulation cores, refining the UI, or fixing bugs, your help is appreciated. Please read our [Contributing Guidelines](CONTRIBUTING.md) before opening a pull request.
-
-## 📄 License
-
-RetroArc is distributed under the MIT License. See the `LICENSE` file for more information.
-
-<br/>
-<div align="center">
-  <sub>Built with ❤️ for Retro Gamers everywhere.</sub>
-</div>
+Created by [Harsh Paun](https://github.com/techgamewithharsh-dot).
